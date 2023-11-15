@@ -183,6 +183,12 @@ main {
   padding-right: 200px;
 }
 
+.greeting{
+  text-align: center; 
+  padding-top: 30px; 
+  font-size: 40px;
+}
+
 .seccion1 {
   display: flex;
   justify-content: center;
