@@ -43,6 +43,7 @@ nav ul li a {
   margin: 0 30px;
   padding: 5px 15px;
   border-radius: 30px;
+  font-size: 20px;
 }
 
 .checkbtn {
@@ -185,8 +186,12 @@ main {
 
 .greeting{
   text-align: center; 
-  padding-top: 30px; 
+  padding-top: 100px; 
   font-size: 40px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .seccion1 {
@@ -194,7 +199,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: end;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 #imagenseccion1 {
@@ -226,6 +231,9 @@ main {
   color: #f2f2f2;
 }
 
+.seccion1-division p {
+  padding: 0 30px;
+}
 .seccion2 {
   padding-top: 200px;
   flex-wrap: wrap;
@@ -243,8 +251,7 @@ main {
 }
 
 .seccion2 p {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 200px;
 }
 
 .seccion3 .card {
@@ -269,7 +276,7 @@ main {
 
 .cards {
   display: flex;
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 200px;
   flex-wrap: wrap;
 }
@@ -306,6 +313,10 @@ main {
 
   .seccion2 {
     padding-top: 100px;
+  }
+
+  .seccion2 p {
+    padding: 50px 100px;
   }
 
   .seccion2 h1 {
